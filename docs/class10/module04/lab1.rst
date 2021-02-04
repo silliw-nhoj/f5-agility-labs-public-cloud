@@ -18,7 +18,7 @@ Status 200 OK response signals that Declarative Onboarding iControl LX is ready 
 Basic network plumbing and services
 -----------------------------------
 
-From Postman, "Lab - Declarative Onboarding - Basic Plumbing" => "Step 3: DO - Network Plumbing and Module Provisioning - BIGIP1" => [Send]
+From Postman, "Lab 4.1 - Declarative Onboarding - Basic Plumbing" => "Step 3: DO - Network Plumbing and Module Provisioning - BIGIP1" => [Send]
 
 .. image:: ./images/3_postman_bigip1_do.png
 	   :scale: 50%
@@ -33,7 +33,7 @@ Eventually, the status will be 200 OK. Our DO declaration has successfully creat
 .. image:: ./images/5_postman_bigip1_do_completed.png
 	   :scale: 50%
 
-From Postman, "Lab - Declarative Onboarding - Basic Plumbing" => "Step 4: DO - Network Plumbing and Module Provisioning - BIGIP2" => [Send]
+From Postman, "Lab 4.1 - Declarative Onboarding - Basic Plumbing" => "Step 4: DO - Network Plumbing and Module Provisioning - BIGIP2" => [Send]
 
 .. image:: ./images/12_postman_bigip2_do.png
 	   :scale: 50%
@@ -73,44 +73,13 @@ On Big-IP1, System => Configuration => Device => DNS was configured.
 .. image:: ./images/10_bigip1_do_dns.png
 	   :scale: 50%
 
-On Big-IP1, Network => Routes. No routes.
+On Big-IP1, Switch to partition **LOCAL_ONLY** and go to Network => Routes. Default route is configured.
 
 .. image:: ./images/11_bigip1_do_no_route.png
 	   :scale: 50%
 
-On Big-IP2, Network. => Routes. No routes.
+On Big-IP2, Switch to partition **LOCAL_ONLY** and go to Network => Routes. Default route is configured.
 
 .. image:: ./images/13_postman_bigip2_get_do_status.png
 	   :scale: 50%
 
-Default route in LOCAL_ONLY partition for Cloud Failover
---------------------------------------------------------
-
-For cloud fail-over we need to create routes in a dedicated "LOCAL_ONLY" partition.
-
-From Postman, "Lab - Declarative Onboarding - Basic Plumbing" => "Step 5: REST API - Create LOCAL_ONLY Partition - BIGIP1" => [Send].
-
-.. image:: ./images/15_postman_bigip1_create_local_only_partition.png
-	   :scale: 50%
-
-From Postman, "Lab - Declarative Onboarding - Basic Plumbing" => "Step 6: REST API - Create default route - BIGIP1" => [Send].
-
-.. image:: ./images/16_postman_bigip1_create_default_route.png
-	   :scale: 50%
-
-From Postman, "Lab - Declarative Onboarding - Basic Plumbing" => "Step 7: REST API - Create LOCAL_ONLY Partition - BIGIP2" => [Send].
-
-.. image:: ./images/18_postman_bigip2_create_local_only_partition.png
-	   :scale: 50%
-
-From Postman, "Lab - Declarative Onboarding - Basic Plumbing" => "Step 8: REST API - Create default route - BIGIP2" => [Send].
-
-.. image:: ./images/19_postman_bigip2_create_default_route.png
-	   :scale: 50%
-
-On Big-IP1, Network => Routes => Select the "LOCAL_ONLY" partition from the drop down in the upper-right-hand corner. The Default route was created.
-
-.. image:: ./images/17_bigip1_default_route.png
-	   :scale: 50%
-
-Confirm the a default route was created in the LOCAL_ONLY partition of Big-IP2 as well.
