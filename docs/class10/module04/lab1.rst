@@ -1,14 +1,14 @@
 Check Declarative Onboarding (DO) is Ready
 ------------------------------------------
 
-From Postman, "Lab - Declarative Onboarding - Basic Plumbing" => "Step 1: Check DO - BIGIP1" => [Send].
+From Postman, "Lab 4.1 - Declarative Onboarding - Basic Plumbing" => "Step 1: Check DO - BIGIP1" => [Send].
 
 Status 200 OK response signals that Declarative Onboarding iControl LX is ready on Big-IP1.
 
 .. image:: ./images/1_postman_bigip1_check_do.png
 	   :scale: 50%
 
-From Postman, "Lab - Declarative Onboarding - Basic Plumbing" => "Step 2: Check DO - BIGIP2" => [Send].
+From Postman, "Lab 4.1 - Declarative Onboarding - Basic Plumbing" => "Step 2: Check DO - BIGIP2" => [Send].
 
 Status 200 OK response signals that Declarative Onboarding iControl LX is ready on Big-IP2.
 
