@@ -65,7 +65,17 @@ More info:
 
 https://clouddocs.f5.com/cloud/public/v1/shared/cloudinit.html
 
-We'll install manually in this lab to emphasize the role each iControl LX package plays.
+We'll install via the REST API using Postman in this lab.
+
+
+F5 Declarative Onboarding Extension
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Big-IP1 => iApps => Package ManagementLX => Import => [Browse] => This PC\Downloads\iControl_LX\f5-declarative-onboarding… Upload the f5-declarative-onboarding… package => click Upload
+
+.. image:: ./images/7_postman_download_declarative_onboarding.png
+	   :scale: 50%
+
 
 F5 Application Services 3 Extension
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
