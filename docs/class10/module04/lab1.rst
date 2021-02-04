@@ -75,11 +75,11 @@ On Big-IP1, System => Configuration => Device => DNS was configured.
 
 On Big-IP1, Switch to partition **LOCAL_ONLY** and go to Network => Routes. Default route is configured.
 
-.. image:: ./images/11_bigip1_do_no_route.png
+.. image:: ./images/11_bigip1_do_route.png
 	   :scale: 50%
 
-On Big-IP2, Switch to partition **LOCAL_ONLY** and go to Network => Routes. Default route is configured.
+On Big-IP2, follow the same process to validate VLAN, Self-IP, NTP, DNS, and Default (LOCAL_ONLY) route is was created.
 
-.. image:: ./images/13_postman_bigip2_get_do_status.png
+.. image:: ./images/11_bigip2_do_route.png
 	   :scale: 50%
 
