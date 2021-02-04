@@ -76,7 +76,7 @@ From Postman, "Lab 3.1 - Install ILX Packages" => "Upload and Install to BIG-IP1
 .. image:: ./images/7_postman_download_declarative_onboarding.png
 	   :scale: 50%
 
-From Postman, "Lab 3.1 - Install ILX Packages" => "Upload and Install to BIG-IP1" => "Step 1: REST API - **Install** DO iLX Package" => [Send]
+From Postman, "Lab 3.1 - Install ILX Packages" => "Upload and Install to BIG-IP1" => "Step 2: REST API - **Install** DO iLX Package" => [Send]
 
 .. image:: ./images/7_postman_install_declarative_onboarding.png
 	   :scale: 50%
