@@ -93,8 +93,14 @@ Install the remaing iLX Extensions (Application Services 3, Service Discovery, C
 
 Upload and and install the remaining extensions by running **Steps 3-8** in Postman "Lab 3.1 - Install ILX Packages" => "Upload and Install to BIG-IP1"
 
+.. image:: ./images/7_postman_install_remaining_bigip1.png
+       :scale: 50%
+
 Once complete, install the iLX Extensions to BIG-IP2 by running **Steps 1-8** in Postman "Lab 3.1 - Install ILX Packages" => "Upload and Install to **BIG-IP2**"
-   
+
+.. image:: ./images/7_postman_install_all_bigip2.png
+       :scale: 50%
+
 Confirm installation of the iLX Extensions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Big-IP1 => iApps => Package Management LX => confirm all five packages installed. Note: f5-service-discovery comes with the f5-appsvcs package.
