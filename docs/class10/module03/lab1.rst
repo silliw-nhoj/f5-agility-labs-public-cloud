@@ -66,6 +66,7 @@ More info:
 https://clouddocs.f5.com/cloud/public/v1/shared/cloudinit.html
 
 We'll install the following iControl LX Extensions via the REST API using Postman in this lab.
+
 - Declarative Onboarding (DO): F5 Declarative onboarding uses a declarative model to initially configure a BIG-IP device with all of the required settings to get up and running. This includes system settings such as licensing and provisioning, network settings such as VLANs and Self IPs, and clustering settings if you are using more than one BIG-IP system.
 - Application Services 3 Extension (AS3): Application Services 3 Extension is a flexible, low-overhead mechanism for managing application-specific configurations on a BIG-IP system. AS3 uses a declarative model: you provide a JSON declaration rather than a set of imperative commands.
 - Service Discovery: Service discovery installs with AS3 and enables the BIG-IP system to automatically update members in a load balancing pool based on cloud application hosts.
