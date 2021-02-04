@@ -15,12 +15,12 @@ The postman_rendered.json file was copied to the Windows desktop.
 .. image:: ./images/2_postman_rendered_desktop.png
 	   :scale: 50%
 
-Open Postman. Click the wrench icon in the upper-right-hand corner to review Settings. Ensure that "SSL certificate verification" is turned "OFF". Close Settings.
+Open Postman. Click the gear icon in the upper-right-hand corner to review Settings. Ensure that "SSL certificate verification" is turned "OFF". Close Settings.
 
 .. image:: ./images/6_postman_ssl_cert_verification_off.png
 	   :scale: 50%
 
-Click "Import" in the upper-left-hand corner. Choose "Import From Link". Import the Postman Collection for this lab from:
+In the right-pane tab, select "Collections" and click "Import" above. Choose "Link" as the source to import from and Import the collection using the URL below:
 
 .. code-block:: bash
 
