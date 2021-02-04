@@ -71,7 +71,7 @@ We'll install via the REST API using Postman in this lab.
 F5 Declarative Onboarding Extension
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Big-IP1 => iApps => Package ManagementLX => Import => [Browse] => This PC\Downloads\iControl_LX\f5-declarative-onboarding… Upload the f5-declarative-onboarding… package => click Upload
+From Postman, "Lab 3.1 - Install ILX Packages" => "Upload and Install to BIG-IP1" => "Step 1: REST API - Upload DO iLX Package" => [Send]
 
 .. image:: ./images/7_postman_download_declarative_onboarding.png
 	   :scale: 50%
