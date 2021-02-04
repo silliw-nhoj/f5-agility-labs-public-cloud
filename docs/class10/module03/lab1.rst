@@ -29,13 +29,12 @@ In the right-pane tab, select "Collections" and click "Import" above. Choose "Li
 .. image:: ./images/3_postman_import_collection.png
 	   :scale: 50%
 
+Confirm the **F5 Agility 2021 PC201 Lab** Collection has been imported.
+
 .. image:: ./images/4_postman_collection_imported.png
 	   :scale: 50%
 
-Confirm the **F5 Agility 2020 PC201 Lab** Collection has been imported.
-
-In the upper-right-hand corner. To the far right of the "No Environment" drop-down menu. Click on the gear icon and "Import from File".
-Navigate to \\This PC\\Desktop\\postman_rendered.json => [Open].
+In the left-pane tab, sellect "Environments" and click "Import" above. Choose "File" as the source to import from and navigate to \\This PC\\Desktop\\postman_rendered.json => [Open].
 
 .. image:: ./images/5_postman_import_environment.png
 	   :scale: 50%
