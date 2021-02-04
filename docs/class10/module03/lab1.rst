@@ -38,19 +38,19 @@ Confirm the **F5 Agility 2021 PC201 Lab** Collection has been imported.
 	   :scale: 50%
 
 
-In the left-pane tab, sellect "Environments" and click "Import" above. Choose "File" as the source to import from and navigate to \\This PC\\Desktop\\postman_rendered.json => [Open].
+In the left-pane tab, sellect "Environments" and click "Import" above. Choose "File" as the source to import from and navigate to **This PC\\Desktop\\postman_rendered.json** and click "Open".
 
 .. image:: ./images/5_postman_import_environment.png
 	   :scale: 50%
 
 
-Close the MANAGE ENVIRONMENTS box.
+Click on "Import" to import the environment.
 
 .. image:: ./images/5_postman_environment_imported.png
 	   :scale: 50%
 
 
-Confirm the environment was successfully imported. Choose "Agility 2020 - Use Terraform to..." from the Environment drop-down menu in the upper-right-hand corner.
+Confirm the environment was successfully imported by selecting the "Agility 2020 - Use Terraform to..." environment from the Environment drop-down menu in the upper-right-hand corner.
 
 .. image:: ./images/00_postman_environment_check.png
 	   :scale: 50%
