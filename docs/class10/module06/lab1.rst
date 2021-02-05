@@ -139,35 +139,3 @@ Click on the padlock icon on the left-hand side of the URL bar and note the ciph
 .. image:: ./images/28_example_app_https_tls_1.3.png
 	   :scale: 50%
 
-Big-IP1, "Local Traffic" => "Profiles" => "SSL" => "Client". Select the "clientssl_secure_example01a" profile. Modify the profile to support TLS 1.3.
-
-- Ciphers => (*)Cipher Group => f5-default.
-- Options List => Select "No TLSv1.3" and [Disable]
-
-.. image:: ./images/25_bigip1_tls_1.3.png
-	   :scale: 50%
-
-Scroll down and [Update].
-
-.. image:: ./images/25_bigip1_tls_1.3_update.png
-	   :scale: 50%
-
-Do the same for the "clientssl_secure_example01b" profile.
-
-Big-IP1, "Local Traffic" => "Profiles" => "SSL" => "Client". Select the "clientssl_secure_example01b" profile. Modify the profile to support TLS 1.3.
-
-- Ciphers => (*)Cipher Group => f5-default.
-- Options List => Select "No TLSv1.3" and [Disable]
-
-.. image:: ./images/26_bigip1_tls_1.3.png
-	   :scale: 50%
-
-Scroll down and [Update].
-
-.. image:: ./images/26_bigip1_tls_1.3_update.png
-	   :scale: 50%
-
-From the browser, in the tab with the example HTTPS application, hit [CTRL] + [F5] a few times to refresh the page. Click on the padlock icon on the left-hand side of the URL bar and note the ciphers used: ECDSA enabled and TLS 1.3.
-
-.. image:: ./images/28_example_app_https_tls_1.3.png
-	   :scale: 50%
