@@ -134,9 +134,9 @@ From the browser, in the tab with the example HTTPS application, hit [CTRL] + [F
 .. image:: ./images/23_example_app_https_bypass_warning.png
 	   :scale: 50%
 
-Click on the padlock icon on the left-hand side of the URL bar and note the ciphers used: ECDSA enabled but still TLS 1.2.
+Click on the padlock icon on the left-hand side of the URL bar and note the ciphers used: ECDSA enabled and protocol is now TLS1.3
 
-.. image:: ./images/24_example_app_https_tls_1.2_ecdsa.png
+.. image:: ./images/28_example_app_https_tls_1.3.png
 	   :scale: 50%
 
 Big-IP1, "Local Traffic" => "Profiles" => "SSL" => "Client". Select the "clientssl_secure_example01a" profile. Modify the profile to support TLS 1.3.
