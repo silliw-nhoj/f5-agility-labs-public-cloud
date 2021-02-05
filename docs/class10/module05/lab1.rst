@@ -1,7 +1,7 @@
 Establish Device Trust between Big-IPs.
 ---------------------------------------
 
-From Postman, "Lab 4.1 - Declarative Onboarding - Active / Standby HA Cluster" => "Step 1: REST API - System Resource Provisioning - BIGIP1 Device Trust" => [Send]
+From Postman, "Lab 4.2 - Declarative Onboarding - Active / Standby HA Cluster" => "Step 1: REST API - System Resource Provisioning - BIGIP1 Device Trust" => [Send]
 
 .. image:: ./images/2_bigip1_device_trust1.png
 	   :scale: 50%
@@ -16,7 +16,7 @@ Confirm this by going to the Configuration Utility (WebUI) on each BIG-IP device
 Create a Config Sync Group between Big-IPs
 ------------------------------------------
 
-From Postman => "Lab 4.1 - Declarative Onboarding - Active / Standby HA Cluster" => "Step 2: DO - System Resource Provisioning - BIGIP1 HA Cluster" => [Send].
+From Postman => "Lab 4.2 - Declarative Onboarding - Active / Standby HA Cluster" => "Step 2: DO - System Resource Provisioning - BIGIP1 HA Cluster" => [Send].
 
 .. image:: ./images/6_postman_ha_cluster_202.png
 	   :scale: 50%

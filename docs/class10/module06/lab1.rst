@@ -14,14 +14,14 @@ Big-IP2 => Local Traffic => Virtual Servers. There are no Virtual Servers config
 Check AS3 is ready
 ------------------
 
-From Postman, “Lab - AS3 Declarations with Pool Member AutoDiscovery” => “Step 1: Check AS3 - BIGIP1” => [Send].
+From Postman, “Lab 4.3 - AS3 Declarations with Pool Member AutoDiscovery” => “Step 1: Check AS3 - BIGIP1” => [Send].
 
 Status 200 OK response signals that Application Services 3 Extension (AS3) is ready on Big-IP1.
 
 .. image:: ./images/3_postman_bigip1_check_as3.png
 	   :scale: 50%
 
-From Postman, “Lab - AS3 Declarations with Pool Member AutoDiscovery” => “Step 2: Check AS3 - BIGIP2” => [Send].
+From Postman, “Lab 4.3 - AS3 Declarations with Pool Member AutoDiscovery” => “Step 2: Check AS3 - BIGIP2” => [Send].
 
 Status 200 OK response signals that Application Services 3 Extension (AS3) is ready on Big-IP2.
 
@@ -31,12 +31,12 @@ Status 200 OK response signals that Application Services 3 Extension (AS3) is re
 Create HTTP Virtual Servers with AS3 and Service Discovery
 ----------------------------------------------------------
 
-From Postman, “Lab - AS3 Declarations with Pool Member AutoDiscovery” => “Step 3: Example01/example01 with AutoDiscover pool members”. Review the Body of the declaration. The AS3 declaration is configured to discover pool members based on AWS tags.
+From Postman, “Lab 4.3 - AS3 Declarations with Pool Member AutoDiscovery” => “Step 3: Example01/example01 with AutoDiscover pool members”. Review the Body of the declaration. The AS3 declaration is configured to discover pool members based on AWS tags.
 
 .. image:: ./images/5_postman_bigip1_autodiscover_pool_as3.png
 	   :scale: 50%
 
-From Postman, “Lab - AS3 Declarations with Pool Member AutoDiscovery” => “Step 3: Example01/example01 with AutoDiscover pool members” => [Send].
+From Postman, “Lab 4.3 - AS3 Declarations with Pool Member AutoDiscovery” => “Step 3: Example01/example01 with AutoDiscover pool members” => [Send].
 
 .. image:: ./images/6_postman_bigip1_as3_post1.png
 	   :scale: 50%
@@ -77,7 +77,7 @@ Open a new browser tab. Connect via HTTP to ``virtual_server01_elastic_ip``.
 Enable modern protocols such as HTTP/2 and TLS 1.3 with AS3 and Service Discovery
 ---------------------------------------------------------------------------------
 
-From Postman, “Lab - AS3 Declarations with Pool Member AutoDiscovery” => “Step 4: Create AS3 - Example01/example01 HA Modern Protocols”. => [Send].
+From Postman, “Lab 4.3 - AS3 Declarations with Pool Member AutoDiscovery” => “Step 4: Create AS3 - Example01/example01 HA Modern Protocols”. => [Send].
 
 .. image:: ./images/13_postman_modern_protocols1.png
 	   :scale: 50%
@@ -100,7 +100,7 @@ From the browser, note the ciphers used: TLS 1.2. We'll upgrade to TLS 1.3 with 
 .. image:: ./images/17_example_app_https_tls_1.2.png
 	   :scale: 50%
 
-From Postman, “Lab - AS3 Declarations with Pool Member AutoDiscovery” => “Step 5: Create AS3 - Example01/example01 HA Modern Protocols”. => [Send].
+From Postman, “Lab 4.3 - AS3 Declarations with Pool Member AutoDiscovery” => “Step 5: Create AS3 - Example01/example01 HA Modern Protocols”. => [Send].
 
 .. image:: ./images/18_postman_modern_protocols2.png
 	   :scale: 50%
@@ -119,7 +119,7 @@ From the browser, in the tab with the example HTTPS application, hit [CTRL] + [F
 
   In the following examples, the cert and keys are stored as Postman environment variables. This is for illustrative purposes only. In a secure production environment you must incorporate a proper secrets management solution.
 
-From Postman, “Lab - AS3 Declarations with Pool Member AutoDiscovery” => “Step 6: Create AS3 - Example01/example01 ECDSA Cert”. => [Send].
+From Postman, “Lab 4.3 - AS3 Declarations with Pool Member AutoDiscovery” => “Step 6: Create AS3 - Example01/example01 ECDSA Cert”. => [Send].
 
 .. image:: ./images/21_postman_modern_protocols_ecdsa_certs.png
 	   :scale: 50%
